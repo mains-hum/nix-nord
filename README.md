@@ -1,13 +1,12 @@
 <div align="center">
 
-# ❄️ [mains-hum] / nix-nord
-`Hello, I am mains-hum. Beautiful dotfile with gtk theme - tokyonight, NixOS Hyprland.`
+# :herb: [mains-hum] / nix-nord
+`Hello, I am mains-hum. Simple dotfile with gtk theme - nord, NixOS Hyprland.`
 
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/mains-hum/nix-tokyonight?style=for-the-badge&logo=github&color=81a1c1&logoColor=white" alt="Repo Size" />
   <img src="https://img.shields.io/badge/NixOS-Unstable-5277C3?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS" />
   <img src="https://img.shields.io/badge/WM-Hyprland-00ADD8?style=for-the-badge&logo=wayland&logoColor=white" alt="Hyprland" />
-  <img src="https://img.shields.io/github/last-commit/mains-hum/nix-tokyonight?style=for-the-badge&color=81a1c1&logo=github" alt="Last Commit" />
   <img src="https://img.shields.io/github/license/mains-hum/nix-tokyonight?style=for-the-badge&color=ebcb8b" alt="License" />
 </p>
 
@@ -67,9 +66,9 @@
 
 # Clone this repository
 > mkdir Pictures
-> git clone https://github.com/mains-hum/nix-tokyonight.git
-> cp -r nix-tokyonight/zapret-discord-youtube-linux/ .
-> cd nix-tokyonight/nixos
+> git clone https://github.com/mains-hum/nix-nord.git
+> cp -r nix-nord/zapret-discord-youtube-linux/ .
+> cd nix-nord/nixos
 
 # Copy configuration files
 > sudo rm -rf /etc/nixos/configuration.nix
@@ -89,7 +88,7 @@
 - Configure your monitor in Hyprland:
 
 ```bash
-> snvf /etc/nixos/dotfiles/hypr/hyprland.conf
+> snvf /etc/nixos/home/programs/hyprland.nix
 ```
 
 ```conf
@@ -103,7 +102,7 @@ monitor = DP-1, 1920x1080@165, 0x0, 1
 -  For multiple monitors, add additional `monitor` lines
 -  Convert wallpaper to gtk gtk theme
 ```bash
-> gowall convert ~/path-to-wallpaper -t tokyo-storm
+> gowall convert ~/wallpaper -t nordic-void
 ```
 
 ---
