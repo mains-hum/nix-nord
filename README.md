@@ -29,7 +29,7 @@
 | Component | Software |
 | :--- | :--- |
 | **Compositor** | `Hyprland` |
-| **Shell** | `Fish` |
+| **Shell** | `Tmux -> Fish` |
 | **Terminal** | `Alacritty` |
 | **IDE** | `Helix/NFV` |
 | **Bar** | `Waybar` |
