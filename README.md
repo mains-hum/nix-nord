@@ -88,7 +88,7 @@
 - Configure your monitor in Hyprland:
 
 ```bash
-> snvf /etc/nixos/home/programs/hyprland.nix
+> sh /etc/nixos/home/programs/hyprland.nix
 ```
 
 ```conf
