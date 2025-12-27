@@ -43,8 +43,6 @@
     rofi
     swww
     alacritty
-    mpvpaper
-    pywal
     wpgtk
     nwg-look
     gowall
@@ -63,15 +61,17 @@
     grim
     slurp
     wl-clipboard
-    lsd
-    zoxide
     cliphist
     helix
     dconf
     gsettings-desktop-schemas
-    yazi
     zellij
     nushell
     wtype
+    bat
+    ripgrep
+    bottom
+    dust
+    joshuto
   ];
 }

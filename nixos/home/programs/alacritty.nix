@@ -16,9 +16,6 @@
         size = 10.0;
       };
 
-      # МОМЕНТАЛЬНЫЙ ЗАПУСК:
-      # Запускаем Zellij первым делом.
-      # Он сам откроет Nushell внутри себя.
       terminal.shell = {
         program = "${pkgs.zellij}/bin/zellij";
         args = [

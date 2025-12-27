@@ -130,7 +130,6 @@ in
         "$mainMod, Q, killactive"
         "$mainMod, F, fullscreen"
         "$mainMod, R, exec, $rofi"
-        "$mainMod, S, exec, kitty -e yazi"
         "$mainMod, W, exec, $browser"
         "$mainMod, D, exec, Telegram"
         "ALT SHIFT, S, exec, $screenshot"

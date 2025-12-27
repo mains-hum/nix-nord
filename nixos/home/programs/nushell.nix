@@ -42,9 +42,10 @@
       alias grep = grep --color=auto
       alias sh = sudo -E hx
       alias h = hx
-      alias y = yazi
+      alias j = joshuto
       alias s = synapce
       alias c = clear
+      alias f = fastfetch
     '';
   };
 
