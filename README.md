@@ -67,7 +67,6 @@
 # Clone this repository
 > mkdir Pictures
 > git clone https://github.com/mains-hum/nix-nord.git
-> cp -r nix-nord/zapret-discord-youtube-linux/ .
 > cd ~/nix-nord/nixos
 
 # Copy configuration files
