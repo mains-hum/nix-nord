@@ -17,6 +17,7 @@
     ./programs/helix.nix
     ./programs/gowall.nix
     ./programs/git.nix
+    ./programs/cava.nix
     ./programs/theme.nix
     ./programs/nvf.nix
     ./programs/fastfetch.nix
